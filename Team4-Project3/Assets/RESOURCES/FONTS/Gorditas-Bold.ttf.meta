@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5366f54694eaf6d4b84fa133a62c9452
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Gorditas
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c0e3623e5cae5f44ca0f4928e77b5ffe, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
