@@ -9,7 +9,10 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: TFF_Water_01A
   m_Shader: {fileID: 4800000, guid: 21b2f218fa38d334daf2f2012e6c546d, type: 3}
-  m_ValidKeywords: []
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _WAVES_ON
   m_InvalidKeywords:
   - _LIGHTS_ON
   - _MAINFOAMPOWER_ON
@@ -20,16 +23,17 @@ Material:
   m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _NoiseTexture:
         m_Texture: {fileID: 2800000, guid: 41d01fe6e8db970449385e7f43d4aa06, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 100, y: 100}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
         m_Texture: {fileID: 2800000, guid: db76e0ea49f14f147bee066871c70d88, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 100, y: 100}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -68,9 +72,9 @@ Material:
     - _ReflectionsScrollSpeed: 0.045
     - _ShallowColorDepth: 4
     - _WaveAmplitude: 0.5
-    - _WaveIntensity: 0.15
+    - _WaveIntensity: 0.001
     - _WaveSpeed: 1
-    - _Waves: 0
+    - _Waves: 1
     - __dirty: 0
     m_Colors:
     - _DeepColor: {r: 0.13585797, g: 0.34535164, b: 0.4056604, a: 1}
